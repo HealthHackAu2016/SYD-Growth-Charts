@@ -10,6 +10,9 @@ A growth chart is a chart that shows the normal range for height at a given age 
 
 Children with bone dysplasias have a genetic defect that prevents their bones from growing normally. The most common types of bone dysplasias are Achondroplasia, Pseudoachondroplasia, Diastrophic Dysplasia and Spondyloepiphyseal Dysplasia Congenita (SEDC). As these children grow differently from other children, they need to be plotted on growth charts specific to their condition. Since bone dysplasias are rare, it is difficult to collect sufficient measurements from lots of children with these conditions to produce a high quality growth chart. Low quality growth charts based on a small amount of measurements do exist (see PDFs below), but they are rarely used as many doctors are not aware of their existence. The goal of this project is therefore twofold: 1) promote the use of the existing growth charts and 2) collect height measurements from patients using the app to produce better growth charts in the future.
 
+##What is the current solution to the problem?
+Patients or doctors make photocopies of the disease specific growth charts and plot their patients on these (if they are aware they exist and can get their hands on these very old papers). 
+
 ##Solution
 - Native iPhone and Android apps
 Use growth charts from the publications provided
