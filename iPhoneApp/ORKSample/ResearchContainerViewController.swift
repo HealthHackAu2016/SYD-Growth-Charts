@@ -56,8 +56,8 @@ class ResearchContainerViewController: UIViewController, HealthClientType {
 //        else {
 //            toOnboarding()
 //        }
-        toStudy()
-//        toOnboarding()
+//        toStudy()
+        toOnboarding()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
