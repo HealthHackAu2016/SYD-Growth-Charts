@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="growth.garvan.com.au.growth.DashboardActivity"
+    tools:showIn="@layout/activity_dashboard">
+
+    <RelativeLayout
+        android:id="@+id/content_main_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.first.growthchart.MainDashboardActivity"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:text="Add Measurements"
+            android:textAlignment="textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:src="@drawable/ic_launcher1"
+            android:id="@+id/addMeasurementsButton"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Chart"
+            android:layout_below="@+id/growthChartButton"
+            android:layout_alignStart="@+id/growthChartButton" />
+        <ImageButton
+            android:text="Growth Chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/growthChartButton"
+            android:src="@drawable/ic_launcher2"
+            android:layout_alignTop="@+id/newsButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="34dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Measurement"
+            android:layout_below="@+id/addMeasurementsButton"
+            android:layout_alignStart="@+id/addMeasurementsButton"
+            android:id="@+id/textView" />
+
+        <ImageButton
+            android:text="News"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/newsButton"
+            android:src="@drawable/ic_launcher4"
+            android:layout_marginTop="48dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:layout_below="@+id/newsButton"
+            android:layout_alignStart="@+id/newsButton"/>
+
+        <ImageButton
+            android:text="New Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/createProfileButton"
+            android:src="@drawable/ic_launcher3"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/growthChartButton" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Profile"
+            android:layout_below="@+id/createProfileButton"
+            android:layout_alignStart="@+id/createProfileButton" />
+    </RelativeLayout>
+
+</RelativeLayout>

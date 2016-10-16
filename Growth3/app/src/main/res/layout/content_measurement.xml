@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_measurement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="growth.garvan.com.au.growth.MeasurementActivity"
+    tools:showIn="@layout/activity_measurement">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/mearementDate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="19dp"
+            android:id="@+id/measurementHeight"
+            android:text="height" />
+
+        <TextView
+            android:text="cms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_alignTop="@+id/measurementHeight"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="97dp"
+            android:layout_marginEnd="97dp"
+            android:layout_alignBottom="@+id/measurementHeight"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:layout_toRightOf="@+id/measurementHeight"
+            android:layout_toEndOf="@+id/measurementHeight" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/measurementHeight"
+            android:layout_alignRight="@+id/measurementHeight"
+            android:layout_alignEnd="@+id/measurementHeight"
+            android:layout_marginTop="13dp"
+            android:id="@+id/measurementWeight"
+            android:text="weight" />
+
+        <TextView
+            android:text="kgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/measurementWeight"
+            android:id="@+id/textView3"
+            android:layout_alignBottom="@+id/measurementWeight"
+            android:layout_toRightOf="@+id/measurementWeight"
+            android:layout_alignRight="@+id/textView"
+            android:layout_alignEnd="@+id/textView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/measurementWeight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="18dp"
+            android:id="@+id/editText9"
+            android:text="head circumference" />
+
+        <TextView
+            android:text="cms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:layout_toRightOf="@+id/editText9"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignBottom="@+id/editText9"
+            android:layout_alignTop="@+id/editText9" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="31dp"
+            android:id="@+id/saveMeasurementButton" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_marginTop="51dp"
+            android:id="@+id/mearementDate"
+            android:text="Measurement Date"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+</RelativeLayout>
+
