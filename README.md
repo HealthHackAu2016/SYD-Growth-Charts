@@ -11,7 +11,7 @@ A growth chart is a chart that shows the normal range for height at a given age 
 Children with bone dysplasias have a genetic defect that prevents their bones from growing normally. The most common types of bone dysplasias are Achondroplasia, Pseudoachondroplasia, Diastrophic Dysplasia and Spondyloepiphyseal Dysplasia Congenita (SEDC). As these children grow differently from other children, they need to be plotted on growth charts specific to their condition. Since bone dysplasias are rare, it is difficult to collect sufficient measurements from lots of children with these conditions to produce a high quality growth chart. Low quality growth charts based on a small amount of measurements do exist (see PDFs below), but they are rarely used as many doctors are not aware of their existence. The goal of this project is therefore twofold: 1) promote the use of the existing growth charts and 2) collect height measurements from patients using the app to produce better growth charts in the future.
 
 ##Solution
-1. Native iPhone and Android apps
+- Native iPhone and Android apps
 Use growth charts from the publications provided
 On first launch register new patient:
 enter patient's name, sex, date of birth and diagnosis (dropdown for achondroplasia, pseudoachondroplasia, diastrophic dysplasia, SEDC)
@@ -25,4 +25,4 @@ Option to export the growth chart with recorded measurements as a PDF (e.g. to p
 Store entered measurements on a server: use unique ID assigned by app to identify individual patient without using their name. Also need to store patient’s sex, date of birth, diagnosis, email address (if given).
 A way to push updated growth charts back to user (e.g. through App update?)
 
-1. We also decided to leverage Apple's ResearchKit in order to provide a seemless survey on Apple's iOS platform. This iOS app that we created is primarily targeted towards clinicians and researchers who can fill out the metrics described above but during a one-off event without the need to create profiles. We hope that this app can provide an additional source of data onto which we can start building the largest repository of rare bone diseases.
+- We also decided to leverage Apple's ResearchKit in order to provide a seemless survey on Apple's iOS platform. This iOS app that we created is primarily targeted towards clinicians and researchers who can fill out the metrics described above but during a one-off event without the need to create profiles. We hope that this app can provide an additional source of data onto which we can start building the largest repository of rare bone diseases.
